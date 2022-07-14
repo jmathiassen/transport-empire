@@ -7,7 +7,7 @@ using TransportEmpire.Classes.Map;
 
 namespace Classes.Objects.Infrastructure
 {
-    internal class Waypoint
+    internal class Connection
     {
         public int Id { get; set; }
         public Cell Location { get; set; }

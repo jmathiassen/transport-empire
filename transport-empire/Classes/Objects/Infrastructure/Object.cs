@@ -11,6 +11,7 @@ namespace Classes.Objects.Infrastructure
     {
         public int Id { get; set; }
         public int TypeId { get; set; }
-        public List<Waypoint> Waypoints { get; set; }
+        public Connection Start { get; set; }
+        public Connection End { get; set; }
     }
 }
