@@ -11,7 +11,7 @@ namespace Classes.Objects.Infrastructure
     {
         public int Id { get; set; }
         public int TypeId { get; set; }
-        public Connection Start { get; set; }
-        public Connection End { get; set; }
+        public Junction Start { get; set; }
+        public Junction End { get; set; }
     }
 }
