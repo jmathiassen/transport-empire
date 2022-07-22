@@ -7,7 +7,7 @@ using TransportEmpire.Classes.Map;
 
 namespace Classes.Objects.Infrastructure
 {
-    internal class ShipLane : Object
+    internal class ShipLane : UniverseObject
     {
     }
 }

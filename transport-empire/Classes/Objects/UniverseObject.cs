@@ -5,13 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using TransportEmpire.Classes.Map;
 
-namespace Classes.Objects.Infrastructure
+namespace Classes.Objects
 {
-    internal class Object
+    internal class UniverseObject
     {
         public int Id { get; set; }
-        public int TypeId { get; set; }
-        public Junction Start { get; set; }
-        public Junction End { get; set; }
+        public string Name { get; set; }
     }
 }

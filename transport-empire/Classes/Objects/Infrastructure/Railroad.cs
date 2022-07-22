@@ -1,33 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TransportEmpire.Classes.Map;
-
+﻿
 namespace Classes.Objects.Infrastructure
 {
-    internal class RailwayStation
+    internal class RailwayStation : UniverseObject
 	{
-        public List<Platform> Platforms { get; set; }
+        public List<UniverseObject> Slots { get; set; }
     }
-    internal class Railway
+    internal class Railway : UniverseObject
     {
-        public Junction Start { get; set; }
-        public Junction End { get; set; }
     }
-    internal class Platform
+    internal class Platform : UniverseObject
     {
-        public Track TrackLeft { get; set; }
-        public Track TrackRight { get; set; }
-
     }
-    internal class Track
+    internal class Track : UniverseObject
     {
-
     }
-    internal class Junction
+    internal class Junction : UniverseObject
     {
-        public int Id { get; set; }
     }
 }

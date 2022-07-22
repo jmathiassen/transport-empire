@@ -7,9 +7,7 @@ using TransportEmpire.Classes.Map;
 
 namespace Classes.Objects.Buildings
 {
-    internal class Warehouse
+    internal class Warehouse : UniverseObject
     {
-        public string Name { get; set; }
-        public int Id { get; set; }
     }
 }

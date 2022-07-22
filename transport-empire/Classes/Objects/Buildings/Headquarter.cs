@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TransportEmpire.Classes.Objects
+namespace Classes.Objects.Buildings
 {
+    internal class Headquarter : UniverseObject
+    {
+        public List<Warehouse> Warehouses { get; set; }
+    }
 }

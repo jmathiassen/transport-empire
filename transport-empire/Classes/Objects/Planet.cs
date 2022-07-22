@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Classes.Objects;
+using Classes.Objects.Buildings;
+using Classes.Objects.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +10,7 @@ using TransportEmpire.Classes.Map;
 
 namespace TransportEmpire.Classes.Objects
 {
-	internal class Planet
+	internal class Planet : UniverseObject
 	{
 		private Terrain _terrain;
 		public List<PopulationCenter> PopulationCentres;

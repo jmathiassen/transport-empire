@@ -7,9 +7,7 @@ using TransportEmpire.Classes.Map;
 
 namespace Classes.Objects.Buildings
 {
-    internal class MailStorage
+    internal class MailStorage : UniverseObject
     {
-        public string Name { get; set; }
-        public int Id { get; set; }
     }
 }
